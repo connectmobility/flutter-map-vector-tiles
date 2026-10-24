@@ -1014,3 +1014,5 @@ which is the standard any future format adapter should be held to.
 * tile substitution (parent/child retention) is part of the core grid
   logic instead of an afterthought;
 * `Picture.toImageSync` keeps rasters on the GPU (no async readback).
+
+Label text styles forward the evaluated `text-font` list to Flutter as the primary font family and ordered fallback families. The existing memo and glyph cache keys already include that list, so a family change uses distinct shaped text and glyphs.

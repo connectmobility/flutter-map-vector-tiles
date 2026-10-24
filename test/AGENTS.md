@@ -127,3 +127,5 @@ case is the known flake above; re-run the job before chasing it.
 - `flutter_test`, `flutter_map` (for widget tests)
 
 <!-- MANUAL: -->
+
+`custom_font_family_test.dart` verifies actual glyph changes when a bundled Flutter font family is selected. Its VM-only fixture is an Apache-licensed Roboto font with its license in `fixtures/`.

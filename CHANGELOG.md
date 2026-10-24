@@ -1,3 +1,9 @@
+## Unreleased
+
+Bundled font family selection for vector labels.
+
+- 🐛 Honor `text-font` families and ordered fallbacks when shaping labels; previously only weight and italic treatment were applied.
+
 # Changelog
 
 ## 2.10.1

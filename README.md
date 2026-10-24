@@ -717,3 +717,7 @@ files, which are left out of the published package.
 ## 📄 License
 
 [BSD 3-Clause](LICENSE) © 2026 Jonas Grunau
+
+### Bundled label fonts
+
+`text-font` selects Flutter font families in order. Register bundled fonts in the application and use their Flutter family names, including `packages/<package>/<family>` for package fonts. Weight and italic treatment retain the existing font-name interpretation; unavailable glyphs use Flutter fallback. This does not load remote glyph-PBF resources.

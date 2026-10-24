@@ -410,3 +410,5 @@ two geometrically offset strips was evaluated and rejected: correct
 polyline offsetting (miter/round joins, hairpin bends) is large and
 artifact-prone for no remaining measurable win.
 -->
+
+Label font families come from evaluated `text-font`, including package-qualified Flutter families. Preserve the ordered fallback list and its existing cache-key contribution.

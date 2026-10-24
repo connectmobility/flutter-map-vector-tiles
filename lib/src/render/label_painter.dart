@@ -2036,6 +2036,8 @@ class LabelPainter {
       weight = FontWeight.w200;
     }
     return TextStyle(
+      fontFamily: fonts.firstOrNull,
+      fontFamilyFallback: fonts.skip(1).toList(growable: false),
       fontSize: fontSize,
       fontWeight: weight,
       fontStyle:
